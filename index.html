@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spazon</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="spamton_battle.mp3">
+    </audio>
+    <div class="start">
+        <img src="spazon.png" class="start-rogo">
+        <img src="https://data.uxmilk.jp/wp-content/uploads/2019/01/18NJgObmgEVhNWVt3poeTaA.gif" style="top: 60%; left: 50%; position: fixed; transform: translate(-50%, -50%);" > 
+      </div>
+      <div class="start-2">
+        <p style="max-width: 1000px;" class="demoTxt">*商談に移ﾘましょう</p>
+      </div>
+      <div class="rogo">
+     <img src="spazon.png">
+      </div>
+    <div class="top">
+    <p>spazonﾆようこso！！！！ﾜﾀ94で　　su！！！！
+
+        みな dieすき
+        [[ナンバーワn セールスマン199７]]
+        
+        ｽﾊﾟﾑﾄﾝ G. ｽﾊﾟﾑﾄﾝ
+        でsu！　！！　！！！！</p>
+        <img src="https://64.media.tumblr.com/9b6a6b9b41f0f7582eeec10913e7441e/c93d02d643384c66-12/s2048x3072/8534e11cc995881d5dcb61549a0fe694c4d169f9.gif" width="1000px" height="300px">
+    <p>このサイtoのｵｰﾅー：spamton</p>
+    </div>
+ 
+        <div class="shop">
+            <h1>業火商品</h1>
+                <ul class="item">
+                    <li>ｽﾊﾟﾑﾄﾝの本でsu！！！！</li>
+                    <li class="image"><img src="https://pbs.twimg.com/media/FAHkjbDUUAgndA4.jpg" width="300px" height="400px"></li>
+                    <li><a href="kurome.html" class="btn_04">ｸﾛｰﾒ送金</a></li>
+                </ul>
+                <ul class="item">
+                    <li>ｽﾊﾟﾑﾄﾝの本でsu！！！！</li>
+                    <li class="image"><img src="https://pbs.twimg.com/media/FAHkjbDUUAgndA4.jpg" width="300px" height="400px"></li>
+                    <li><a href="kurome.html" class="btn_04">ｸﾛｰﾒ送金</a></li>
+                </ul>
+                <ul class="item">
+                    <li>ｽﾊﾟﾑﾄﾝの本でsu！！！！</li>
+                    <li class="image"><img src="https://pbs.twimg.com/media/FAHkjbDUUAgndA4.jpg" width="300px" height="400px"></li>
+                    <li><a href="kurome.html" class="btn_04">ｸﾛｰﾒ送金</a></li>
+                </ul>
+                <ul class="item">
+                    <li>ｽﾊﾟﾑﾄﾝの本でsu！！！！</li>
+                    <li class="image"><img src="https://pbs.twimg.com/media/FAHkjbDUUAgndA4.jpg" width="300px" height="400px"></li>
+                    <li><a href="kurome.html" class="btn_04">ｸﾛｰﾒ送金</a></li>
+                </ul>
+                <ul class="item">
+                    <li>ｽﾊﾟﾑﾄﾝの本でsu！！！！</li>
+                    <li class="image"><img src="https://pbs.twimg.com/media/FAHkjbDUUAgndA4.jpg" width="300px" height="400px"></li>
+                    <li><a href="kurome.html" class="btn_04">ｸﾛｰﾒ送金</a></li>
+                </ul>
+                <ul class="item">
+                    <li>ｽﾊﾟﾑﾄﾝの本でsu！！！！</li>
+                    <li class="image"><img src="https://pbs.twimg.com/media/FAHkjbDUUAgndA4.jpg" width="300px" height="400px"></li>
+                    <li><a href="kurome.html" class="btn_04">ｸﾛｰﾒ送金</a></li>
+                </ul>
+                
+      </div>
+        <div class="sagi">
+            <img src="https://i.ytimg.com/vi/uGkHR6SQnf0/maxresdefault.jpg" style="margin: 150px;" width="1200" height="600">
+            <a href="neo.html" class="btn_04">ｷーを[[送信]]してくだsaい！！！</a>
+        </div>
+        <script>
+           $(function() {
+	setTimeout(function(){
+		$('.start p').fadeIn(160);
+	},500); //0.5秒後にロゴをフェードイン!
+	setTimeout(function(){
+		$('.start').fadeOut(500);
+	},5000);
+    setTimeout(function(){
+		$('.start-2 p').fadeIn(1600);
+	},500);
+    setTimeout(function(){
+		$('.start-2').fadeOut(500);
+	},2500);  //2.5秒後にロゴ含め真っ白背景をフェードアウト！
+});
+
+
+// アニメーションさせたいクラス
+var container = $(".demoTxt");
+// アニメーションスピード
+var speed = 80;
+
+// テキストの間にスペースを入れます
+var content = container.html();
+var text = $.trim(content);
+var newHtml = "";
+
+// スペースで区切ったテキストを、テキストの数だけspanで囲む
+text.split("").forEach(function(v) {
+newHtml += '<span>' + v + '</span>';
+});
+
+// spanで囲んだテキスト群をHTMLに戻す
+container.html(newHtml);
+
+// 1文字ずつ表示
+var txtNum = 0;
+container.css({opacity: 1});
+setInterval(function() {
+  container.find('span').eq(txtNum).css({opacity: 1});
+txtNum++
+}, speed);
+
+        </script>
+</body>
+</html>
